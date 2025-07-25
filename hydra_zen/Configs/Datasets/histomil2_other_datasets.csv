@@ -1,0 +1,4 @@
+dataset_name,dataset_storage_folder,hest_loc,source_index_loc,organ,species,oncotree_code,platform,patch_size,pixel_size,align_gene_name_files,extract_patches_files,with_scLLM_embed_files
+lung_in_hest,,PROJECT_PATH,,Lung,Homo sapiens,,Xenium Visium Spatial_Transcriptomics,224,0.5,None,None,0
+liver_in_hest,,PROJECT_PATH,,Liver,Homo sapiens,,Xenium Visium Spatial_Transcriptomics,224,0.5,None,None,0
+kidney_in_hest,,PROJECT_PATH,,Kidney,Homo sapiens,SCCRCC,Xenium Visium Spatial_Transcriptomics,224,0.5,None,None,0

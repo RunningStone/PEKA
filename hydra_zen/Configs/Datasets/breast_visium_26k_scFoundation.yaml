@@ -1,0 +1,20 @@
+_target_: histomil2.Hydra_helper.dataset_part_helpers.dataset_generator
+data_root: ???
+tissue_name: breast
+task: breast_visium_26k
+scLLM_emb_name: scFoundation
+scLLM_emb_prefix: ""
+scLLM_emb_ckpt: default_model
+label_name: null
+random_sample_barcode: true
+batch_switch_interval: 100
+patch_size: 224
+pixel_size: 0.5
+img_prefix: patch_{patch_size}_{pixel_size}
+batch_size: 32
+num_workers: 4
+shuffle: false
+split_dataset: true  # 启用数据集分割
+val_ratio: 0.2  # 验证集比例
+split_seed: 42  # 随机种子
+additional_dataloader_para: {}

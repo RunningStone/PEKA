@@ -1,0 +1,14 @@
+# Configuration for gene bin generator
+# 如果提供HVG_JSON，则使用JSON中的基因列表
+# 如果HVG_JSON为空，则使用HVG计算模式
+
+# HVG JSON文件路径（如果为空则使用HVG计算模式）
+HVG_JSON="/home/pan/Experiments/EXPs/2025_HistoMIL2_workspace/HistoMIL2/scripts/2_downstream_gene_pred/top_50_genes_Visium_Homo_sapien_Breast_Cancer.json"
+
+# 通用参数
+BIN_NB=51
+
+# HVG计算模式参数（仅在HVG_JSON为空时使用）
+N_TOP_HVG=200
+HVG_FLAVOR="seurat"
+BATCH_KEY=""

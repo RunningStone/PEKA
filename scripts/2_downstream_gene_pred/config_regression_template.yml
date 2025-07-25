@@ -1,0 +1,5 @@
+project_root: "/home/pan/Experiments/EXPs/2025_HistoMIL2_workspace/HistoMIL2"  # Path to HistoMIL2 project
+tissue_type: "breast"  # Tissue type (e.g., breast, other_cancer)
+dataset_name: "breast_visium_26k"  # Dataset name under the tissue type directory
+embedder_name: "scFoundation"  # Name of the scLLM model
+n_genes: 50  # Number of variable genes to select

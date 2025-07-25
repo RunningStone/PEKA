@@ -1,0 +1,5 @@
+dataset_name,dataset_storage_folder,hest_loc,source_index_loc,organ,species,oncotree_code,platform,patch_size,pixel_size,align_gene_name_files,extract_patches_files,with_scLLM_embed_files
+breast_in_heast,,PROJECT_PATH,,Breast,Homo sapiens,,Xenium Visium Spatial_Transcriptomics,224,0.5,None,None,0
+breast_xenium_100k,,PROJECT_PATH,,Breast,Homo sapiens,,Xenium,224,0.5,None,None,0
+breast_visium_26k,,PROJECT_PATH,,Breast,Homo sapiens,,Visium,224,0.5,None,None,0
+breast_visium_st_70k,,PROJECT_PATH,,Breast,Homo sapiens,,Visium Spatial_Transcriptomics,224,0.5,None,None,0

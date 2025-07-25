@@ -1,0 +1,10 @@
+_target_: histomil2.Hydra_helper.model_part_helpers.model_config
+encoder_name: ???
+encoder_output_dim: ???
+translate_module_name: ???
+target_dim: ???
+lora_r: 8
+lora_alpha: 32
+lora_dropout: 0.1
+pre_trained_ckpt_path: null
+translate_additional_params: null

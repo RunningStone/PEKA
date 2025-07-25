@@ -1,0 +1,13 @@
+_target_: histomil2.Hydra_helper.model_part_helpers.model_config
+encoder_name: hf-hub:MahmoodLab/UNI
+encoder_output_dim: 1024
+translate_module_name: MLP
+translate_additional_params:
+  mid_dim: 512  # MLP中间层维度
+  peft_method: bone  # 使用Bone方法
+  init_weights: true  # 使用Bone结构进行初始化，可以设为'bat'使用Bat结构
+target_dim: ???
+lora_r: 256  # Bone的秩，建议设置为偶数
+lora_alpha: 32  # 这个参数在Bone中不会被使用
+lora_dropout: 0.1  # 这个参数在Bone中不会被使用
+pre_trained_ckpt_path: null

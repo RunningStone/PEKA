@@ -1,0 +1,17 @@
+_target_: histomil2.Hydra_helper.model_part_helpers.model_config
+encoder_name: hf-hub:MahmoodLab/UNI
+encoder_output_dim: 1024
+translate_module_name: MLP
+translate_additional_params:
+  mid_dim: 512  # MLP中间层维度
+  peft_method: adalora  # 使用AdaLoRA方法
+  target_r: 128  # 目标平均秩，AdaLoRA会动态调整到这个值
+  init_r: 256  # 每个增量矩阵的初始秩
+  beta1: 0.85  # 用于平滑敏感度的EMA超参数
+  beta2: 0.85  # 用于不确定性量化的EMA超参数
+  total_step: 10000  # 总训练步数，用于调度预算分配
+target_dim: ???
+lora_r: 256  # 初始LoRA秩
+lora_alpha: 32  # 缩放因子
+lora_dropout: 0.1  # Dropout率
+pre_trained_ckpt_path: null

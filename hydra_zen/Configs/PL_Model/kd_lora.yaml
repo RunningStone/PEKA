@@ -1,0 +1,7 @@
+# KD_LoRA特定参数
+num_classes: 100
+classifier_hidden_dim: 512
+input_dim: 1536  # scLLM embedding dimension
+temperature: 2.0
+alpha: 0.5  # weight for distillation loss
+lora_save_path: ???  # 由外部提供，通常是output_dir/phase2/lora

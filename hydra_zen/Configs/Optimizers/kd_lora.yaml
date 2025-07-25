@@ -1,0 +1,28 @@
+_target_: histomil2.Hydra_helper.opt_sch_part_helpers.opt_sch_config
+
+metrics_names:
+  - MSE
+  - CosSim
+
+metrics_paras:
+  regression:
+    MSE: {}
+    CosSim:
+      reduction: mean
+  CE_Loss: {}
+
+loss_name: CrossEntropyLoss
+loss_paras:
+  reduction: mean
+
+optimizer_name_list:
+- Adam
+optimizer_paras_list:
+- lr: 0.0001
+scheduler_name_list:
+- StepLR
+scheduler_paras_list:
+- step_size: 10
+  gamma: 0.1
+n_classes: null
+

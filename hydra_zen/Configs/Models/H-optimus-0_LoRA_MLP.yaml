@@ -1,0 +1,11 @@
+_target_: histomil2.Hydra_helper.model_part_helpers.model_config
+encoder_name: hf-hub:bioptimus/H-optimus-0
+encoder_output_dim: 1536
+translate_module_name: MLP
+translate_additional_params:
+  mid_dim: 512
+target_dim: ???
+lora_r: 256
+lora_alpha: 32
+lora_dropout: 0.1
+pre_trained_ckpt_path: null

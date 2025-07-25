@@ -1,0 +1,6 @@
+[submodule "peka/External_models/scFoundation"]
+	path = peka/External_models/scFoundation
+	url = https://github.com/RunningStone/scFoundation.git
+[submodule "peka/External_models/HEST"]
+	path = peka/External_models/HEST
+	url = https://github.com/RunningStone/HEST.git
